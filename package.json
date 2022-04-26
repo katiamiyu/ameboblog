@@ -1,0 +1,24 @@
+{
+  "name": "ameboblog",
+  "version": "1.0.0",
+  "description": "app to share views and ideas on important matters",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "amebo",
+    "gists",
+    "naijalives",
+    "skits",
+    "information"
+  ],
+  "author": "katiamiyu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0"
+  }
+}
