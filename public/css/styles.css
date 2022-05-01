@@ -2,6 +2,12 @@ body{
   padding: 0;
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0;
+}
 nav{
   position: fixed;
   display: flex;
@@ -44,7 +50,7 @@ input[type=text]{
   border: 1px solid #cccccc;
   font-size: 14px;
   padding-left: 12px;
-  box-shadow: inset 0 1px 2px rgba(0,0,0, 0.5px);
+  box-shadow: inset 0 1px 2px #eeeeee;
   border-radius: 4px 0 0 4px;
 }
 input[type=text]::placeholder{
@@ -95,4 +101,36 @@ footer{
   height: 30px;
   text-align: center;
   padding-top: 5px;
+}
+/* compose page */
+label{
+  display: block;
+}
+.form-item{
+  margin-bottom: 10px;
+}
+textarea{
+  padding: 15px;
+  border: 1px solid #cccccc;
+  resize: none;
+}
+textarea:focus{
+  outline: none;
+}
+.submit-button{
+  padding: 10px 20px;
+  background-color: #CE9461;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: opacity 0.15s,
+  font-weight 0.15s;
+}
+.submit-button:hover{
+  font-weight: bold;
+  opacity: 0.8;
+}
+.submit-button:active{
+  opacity: 0.5;
 }
